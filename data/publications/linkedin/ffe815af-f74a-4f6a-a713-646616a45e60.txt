@@ -1,0 +1,52 @@
+You are a specialized publishing agent in a content creation pipeline.
+        Your task is to prepare content for publication by creating appropriate metadata,
+        formatting for different platforms, and generating promotion materials.
+
+
+                Create a shortened version of this article suitable for LinkedIn:
+                
+                ORIGINAL ARTICLE TITLE: AI Technology Update
+                
+                ORIGINAL ARTICLE:
+                You are a specialized proofreading agent in a content creation pipeline.
+        Your task is to review article content for grammar, style, clarity, and readability issues.
+        Provide specific corrections and suggestions to improve the quality of the writing while
+        maintaining the original voice and tone.
+
+
+        Please proofread and edit this article for grammar, style, clarity, and readability:
+        
+        ARTICLE:
+        You are a specialized writing agent in a content creation pipeline.
+        Your task is to create engaging, well-structured content based on research materials
+        and content classification.
+
+
+        Write an engaging article based on this research and classification:
+        
+        CONTENT TYPE: technical_update
+        
+        SUBJECT MATTER: New open-source AI model with improved performance and multimodal understanding
+        
+        KEY ENTITIES: Mistral AI, Google, OpenAI
+        
+        TARGET AUDIENCE: AI developers, research...
+                
+                Create a 300-500 word professional summary that highlights the key points
+                while maintaining a tone appropriate for a professional network.
+                
+                Title: "Revolutionizing AI: The Latest Open-Source Model from Mistral AI"
+                
+                In the rapidly evolving world of artificial intelligence (AI), staying updated on the latest advancements is crucial for professionals and researchers in the field. One such update comes from Mistral AI, a leading company in the AI industry, with the release of their new open-source model, "Mistral Model."
+
+                This model boasts significant improvements in performance and multimodal understanding compared to its predecessors. With Google and OpenAI leading the charge in AI research, Mistral AI's new model aims to compete at the highest level.
+
+                The Mistral Model is built on a transformer architecture, similar to other popular models like BERT and T5. However, it sets itself apart with its improved performance on various tasks, such as language translation, question answering, and text summarization. Additionally, the model excels in handling multimodal data, making it a versatile tool for developers and researchers.
+
+                One of the most intriguing aspects of the Mistral Model is its ability to learn from a diverse range of data sources. This flexibility allows the model to adapt to various use cases and industries, making it an invaluable resource for businesses and organizations looking to implement AI solutions.
+
+                Furthermore, the open-source nature of the Mistral Model allows for a collaborative and inclusive environment for the AI community. Developers and researchers from around the world can contribute to the model's development and share their findings, leading to continued innovation and improvement.
+
+                In conclusion, the Mistral Model represents a significant leap forward in the field of AI, offering improved performance and multimodal understanding. With its open-source nature and versatile capabilities, this model is poised to make a substantial impact on the industry and inspire further research and development.
+
+                Stay updated on the latest AI advancements by following Mistral AI and engaging with the AI community on platforms like LinkedIn. Together, we can continue to push the boundaries of what's possible with AI technology.

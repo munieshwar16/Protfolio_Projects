@@ -1,0 +1,12 @@
+{
+  "content_id": "ffe815af-f74a-4f6a-a713-646616a45e60",
+  "status": "completed",
+  "stages": {
+    "classification": "completed",
+    "research": "completed",
+    "writing": "completed",
+    "fact_check": "completed",
+    "proofreading": "completed",
+    "publishing": "completed"
+  }
+}

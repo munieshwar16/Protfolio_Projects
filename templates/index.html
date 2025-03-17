@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Content Creation Pipeline</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="mb-4">AI Content Creation Pipeline</h1>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        Check for Updates
+                    </div>
+                    <div class="card-body">
+                        <p>Check for new AI updates from monitored sources.</p>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" id="forceCheck">
+                            <label class="form-check-label" for="forceCheck">
+                                Force check (ignore previously processed articles)
+                            </label>
+                        </div>
+                        <button id="checkUpdatesBtn" class="btn btn-primary">Check for Updates</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header bg-info text-white">
+                        Content Pipeline Status
+                    </div>
+                    <div class="card-body">
+                        <div id="statusMessage" class="alert alert-info d-none"></div>
+                        <div id="contentList">
+                            <p>Loading content...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for details -->
+    <div class="modal fade" id="contentModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Content Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalContent">
+                    Loading...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="processContentBtn">Process Content</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Get elements
+        const checkUpdatesBtn = document.getElementById('checkUpdatesBtn');
+        const forceCheck = document.getElementById('forceCheck');
+        const statusMessage = document.getElementById('statusMessage');
+        const contentList = document.getElementById('contentList');
+        const contentModal = new bootstrap.Modal(document.getElementById('contentModal'));
+        const modalContent = document.getElementById('modalContent');
+        const processContentBtn = document.getElementById('processContentBtn');
+        
+        // Load content list on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            loadContentList();
+        });
+        
+        // Check for updates
+        checkUpdatesBtn.addEventListener('click', async () => {
+            checkUpdatesBtn.disabled = true;
+            checkUpdatesBtn.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Checking...';
+            statusMessage.classList.remove('d-none', 'alert-success', 'alert-danger');
+            statusMessage.classList.add('alert-info');
+            statusMessage.textContent = 'Checking for updates...';
+            
+            try {
+                const response = await fetch('/check-updates', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ force: forceCheck.checked })
+                });
+                
+                const data = await response.json();
+                
+                statusMessage.classList.remove('alert-info', 'alert-danger');
+                statusMessage.classList.add('alert-success');
+                statusMessage.textContent = data.message;
+                
+                // Reload content list
+                loadContentList();
+            } catch (error) {
+                statusMessage.classList.remove('alert-info', 'alert-success');
+                statusMessage.classList.add('alert-danger');
+                statusMessage.textContent = `Error: ${error.message}`;
+            } finally {
+                checkUpdatesBtn.disabled = false;
+                checkUpdatesBtn.textContent = 'Check for Updates';
+            }
+        });
+        
+        // Load content list
+        async function loadContentList() {
+            try {
+                const response = await fetch('/list-content');
+                const data = await response.json();
+                
+                if (data.content_plans.length === 0) {
+                    contentList.innerHTML = '<p>No content found. Check for updates to discover new content.</p>';
+                    return;
+                }
+                
+                let html = '<div class="list-group">';
+                data.content_plans.forEach(plan => {
+                    let statusBadge = '';
+                    switch (plan.status) {
+                        case 'completed':
+                            statusBadge = '<span class="badge bg-success">Completed</span>';
+                            break;
+                        case 'processing':
+                            statusBadge = '<span class="badge bg-warning">Processing</span>';
+                            break;
+                        case 'error':
+                            statusBadge = '<span class="badge bg-danger">Error</span>';
+                            break;
+                        default:
+                            statusBadge = '<span class="badge bg-secondary">Pending</span>';
+                    }
+                    
+                    html += `
+                        <a href="#" class="list-group-item list-group-item-action" data-id="${plan.content_id}">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">${plan.title}</h5>
+                                ${statusBadge}
+                            </div>
+                            <p class="mb-1">ID: ${plan.content_id}</p>
+                            <small>Created: ${plan.created}</small>
+                        </a>
+                    `;
+                });
+                html += '</div>';
+                
+                contentList.innerHTML = html;
+                
+                // Add click handlers
+                document.querySelectorAll('.list-group-item').forEach(item => {
+                    item.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        const contentId = item.dataset.id;
+                        showContentDetails(contentId);
+                    });
+                });
+            } catch (error) {
+                contentList.innerHTML = `<p class="text-danger">Error loading content: ${error.message}</p>`;
+            }
+        }
+        
+        // Show content details
+        async function showContentDetails(contentId) {
+            modalContent.innerHTML = 'Loading content details...';
+            processContentBtn.dataset.id = contentId;
+            contentModal.show();
+            
+            try {
+                const statusResponse = await fetch(`/status/${contentId}`);
+                const statusData = await statusResponse.json();
+                
+                let statusHtml = '';
+                if (statusData.status === 'completed') {
+                    statusHtml = `
+                        <div class="alert alert-success">
+                            Pipeline completed successfully
+                        </div>
+                        <p><a href="/content/${contentId}" target="_blank" class="btn btn-primary">View Generated Article</a></p>
+                    `;
+                    processContentBtn.style.display = 'none';
+                } else if (statusData.status === 'processing') {
+                    statusHtml = `
+                        <div class="alert alert-warning">
+                            Pipeline is currently processing
+                        </div>
+                        <div class="progress mb-3">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%"></div>
+                        </div>
+                    `;
+                    processContentBtn.style.display = 'none';
+                } else if (statusData.status === 'error') {
+                    statusHtml = `
+                        <div class="alert alert-danger">
+                            Error: ${statusData.details.error || 'Unknown error'}
+                        </div>
+                    `;
+                    processContentBtn.style.display = 'block';
+                } else {
+                    statusHtml = `
+                        <div class="alert alert-info">
+                            Content is ready to be processed
+                        </div>
+                    `;
+                    processContentBtn.style.display = 'block';
+                }
+                
+                modalContent.innerHTML = statusHtml;
+                
+            } catch (error) {
+                modalContent.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
+                processContentBtn.style.display = 'block';
+            }
+        }
+        
+        // Process content
+        processContentBtn.addEventListener('click', async () => {
+            const contentId = processContentBtn.dataset.id;
+            
+            processContentBtn.disabled = true;
+            processContentBtn.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Processing...';
+            
+            try {
+                const response = await fetch(`/process-content/${contentId}`, {
+                    method: 'POST'
+                });
+                
+                const data = await response.json();
+                
+                modalContent.innerHTML = `
+                    <div class="alert alert-info">
+                        ${data.message}
+                    </div>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%"></div>
+                    </div>
+                    <p>The content pipeline is now running in the background. You can close this dialog and check the status later.</p>
+                `;
+                
+                processContentBtn.style.display = 'none';
+                
+                // Reload content list after a short delay
+                setTimeout(() => {
+                    loadContentList();
+                }, 2000);
+                
+            } catch (error) {
+                modalContent.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
+                processContentBtn.disabled = false;
+                processContentBtn.textContent = 'Process Content';
+            }
+        });
+        
+        // Poll for status updates
+        setInterval(() => {
+            loadContentList();
+        }, 10000); // Update every 10 seconds
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "content_id": "0940bd1f-721d-4716-b1d5-945675bec7a1",
+  "original_update": {
+    "title": "Visa\u2019s AI edge: How RAG-as-a-service and deep learning are strengthening security and speeding up data retrieval",
+    "url": "https://venturebeat.com/ai/visas-ai-edge-how-rag-as-a-service-and-deep-learning-are-strengthening-security-and-speeding-up-data-retrieval/",
+    "source": "VentureBeat AI",
+    "published_date": "2025-03-17T15:30:00",
+    "content_snippet": "Join our daily and weekly newsletters for the latest updates and exclusive content on industry-leading AI coverage. Learn More Global payments giant Visa operates in 200-plus countries and territories, all with their own unique, complex rules and regulations.\u00a0 Its client services team must understand those nuances when policy-related questions come up \u2014 like \u2018are we allowed to process this type of payment in this country?\u2019 \u2014 but it\u2019s simply not humanly possible to know all those answers top-of-mind.\u00a0 This means they\u2019ve typically had to track down relevant information manually \u2014 an exhaustive process that can take days depending on how accessible it is.\u00a0 When generative AI emerged, Visa saw this as a perfect use case, applying retrieval-augmented generation (RAG) to not only pull out information up to 1,000X faster, but cite it back to its sources.\u00a0 \u201cFirst of all, it\u2019s better quality results,\u201d Sam Hamilton, Visa\u2019s SVP of data and AI, told VentureBeat. \u201cIt\u2019s also latency, right? They can",
+    "analysis": "This article about 'Visa\u2019s AI edge: How RAG-as-a-service and deep learning are strengthening security and speeding up data retrieval' contains AI-related content and appears to be significant news about AI technology or applications."
+  },
+  "content_plan": "\n        Content Plan for: Visa\u2019s AI edge: How RAG-as-a-service and deep learning are strengthening security and speeding up data retrieval\n        \n        Headline: Visa\u2019s AI edge: How RAG-as-a-service and deep learning are strengthening security and speeding up data retrieval\n        \n        Subtopics to cover:\n        1. Overview of the announcement/development\n        2. Technical details and capabilities\n        3. Industry impact and significance\n        4. Expert opinions and analysis\n        5. Future implications\n        \n        Multimedia elements:\n        - Feature image related to ['Visa\u2019s', 'AI', 'edge:']\n        - Infographic showing key points\n        - Related technology comparison if applicable\n        \n        Target audience:\n        - Primary: Tech professionals and AI enthusiasts\n        - Secondary: Business decision-makers interested in AI implementation\n        \n        Key points to emphasize:\n        - What makes this development unique or noteworthy\n        - How it compares to existing technologies\n        - Practical applications and use cases\n        - Future development roadmap\n        ",
+  "status": "plan_created",
+  "tasks": [
+    {
+      "task_type": "research",
+      "status": "pending"
+    },
+    {
+      "task_type": "outline",
+      "status": "pending"
+    },
+    {
+      "task_type": "write",
+      "status": "pending"
+    },
+    {
+      "task_type": "fact_check",
+      "status": "pending"
+    },
+    {
+      "task_type": "proofread",
+      "status": "pending"
+    },
+    {
+      "task_type": "publish",
+      "status": "pending"
+    }
+  ]
+}

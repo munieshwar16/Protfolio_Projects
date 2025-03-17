@@ -1,0 +1,39 @@
+{
+  "content_id": "ddcc15c2-d6cb-408a-af1e-e84e891c78bf",
+  "original_update": {
+    "title": "Everyone in AI is talking about Manus. We put it to the test.",
+    "url": "https://www.technologyreview.com/2025/03/11/1113133/manus-ai-review/",
+    "source": "MIT Technology Review AI",
+    "published_date": "2025-03-11T22:21:54",
+    "content_snippet": "The new general AI agent from China had some system crashes and server overload\u2014but it\u2019s highly intuitive and shows real promise for the future of AI helpers. Since the general AI agent Manus was launched last week, it has spread online like wildfire. And not just in China, where it was developed by the Wuhan-based startup Butterfly Effect. It\u2019s made\u00a0 its way into the global conversation, with influential voices in tech, including Twitter cofounder Jack Dorsey and Hugging Face product lead Victor Mustar, praising its performance. Some have even dubbed it \u201cthe second DeepSeek,\u201d comparing it to the earlier AI model that took the industry by surprise for its unexpected capabilities as well as its origin.\u00a0\u00a0 Manus claims to be the world's first general AI agent, using multiple AI models (such as Anthropic's Claude 3.5 Sonnet and fine-tuned versions of Alibaba's open-source Qwen) and various independently operating agents to act autonomously on a wide range of tasks. (This makes it different",
+    "analysis": "This article about 'Everyone in AI is talking about Manus. We put it to the test.' contains AI-related content and appears to be significant news about AI technology or applications."
+  },
+  "content_plan": "\n        Content Plan for: Everyone in AI is talking about Manus. We put it to the test.\n        \n        Headline: Everyone in AI is talking about Manus. We put it to the test.\n        \n        Subtopics to cover:\n        1. Overview of the announcement/development\n        2. Technical details and capabilities\n        3. Industry impact and significance\n        4. Expert opinions and analysis\n        5. Future implications\n        \n        Multimedia elements:\n        - Feature image related to ['Everyone', 'in', 'AI']\n        - Infographic showing key points\n        - Related technology comparison if applicable\n        \n        Target audience:\n        - Primary: Tech professionals and AI enthusiasts\n        - Secondary: Business decision-makers interested in AI implementation\n        \n        Key points to emphasize:\n        - What makes this development unique or noteworthy\n        - How it compares to existing technologies\n        - Practical applications and use cases\n        - Future development roadmap\n        ",
+  "status": "plan_created",
+  "tasks": [
+    {
+      "task_type": "research",
+      "status": "pending"
+    },
+    {
+      "task_type": "outline",
+      "status": "pending"
+    },
+    {
+      "task_type": "write",
+      "status": "pending"
+    },
+    {
+      "task_type": "fact_check",
+      "status": "pending"
+    },
+    {
+      "task_type": "proofread",
+      "status": "pending"
+    },
+    {
+      "task_type": "publish",
+      "status": "pending"
+    }
+  ]
+}
