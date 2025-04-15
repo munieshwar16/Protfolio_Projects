@@ -67,7 +67,7 @@ cd Proftolio_Projects/content-writing-agent
 pip install -r requirements.txt
 ```
 
-> 🔑 Add your Hugging Face key to `.env` or `config.py`
+
 
 ---
 
@@ -112,7 +112,7 @@ content-writing-agent/
 
 **Evakattu Muni Eshwar**  
 🎓 Master’s in Artificial Intelligence, San Jose State University  
-🔗 [LinkedIn](https://linkedin.com/in/muni-eshwar) | [GitHub](https://github.com/munieshwar16)
+🔗 [LinkedIn](https://www.linkedin.com/in/evakattumunieshwar/) | [GitHub](https://github.com/munieshwar16)
 
 ---
 
