@@ -4,6 +4,7 @@
 An intelligent, automated content creation system powered by specialized AI agents — built to generate high-quality, well-researched content on artificial intelligence topics with minimal human intervention.
 
 ---
+![Banner](./assets/banner.png)
 
 ## 📋 Overview
 
@@ -125,7 +126,7 @@ Check out my other Generative AI work:
 
 ---
 
-![Banner](./assets/banner.png)
+
 
 
 > 💡 _This project is designed for future extensibility into newsletter generation, SEO content automation, and voice-based writing interfaces._
