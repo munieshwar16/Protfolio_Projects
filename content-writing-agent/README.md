@@ -125,4 +125,7 @@ Check out my other Generative AI work:
 
 ---
 
+![Banner](./assets/banner.png)
+
+
 > 💡 _This project is designed for future extensibility into newsletter generation, SEO content automation, and voice-based writing interfaces._
