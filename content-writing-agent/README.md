@@ -4,7 +4,7 @@
 An intelligent, automated content creation system powered by specialized AI agents — built to generate high-quality, well-researched content on artificial intelligence topics with minimal human intervention.
 
 ---
-![Banner](./assets/banner1.png)
+![Banner](./assets/content-writing-agent/assets/ChatGPT Image Apr 14, 2025, 06_53_12 PM.png)
 
 ## 📋 Overview
 
