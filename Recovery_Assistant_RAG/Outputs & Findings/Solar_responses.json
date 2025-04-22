@@ -1,0 +1,155 @@
+{
+    "model": "Solar",
+    "results": [
+        {
+            "question": "What diet should I follow immediately after heart surgery?",
+            "response": "A: After heart surgery, it is recommended to follow a diet that is low in fat and cholesterol. Eat plenty of vegetables, fruits, low-fat or non-fat dairy products, and lean meats while avoiding processed or packaged foods. Start with a liquid diet for the first week or two post-surgery, gradually transitioning to purees, soft foods, and finally regular food as instructed by your surgeon or healthcare provider. Ensure slow eating habits and thorough chewing during this period.",
+            "inference_time": 11.131791114807129
+        },
+        {
+            "question": "When can I start exercising after knee replacement surgery?",
+            "response": "You should start exercising as recommended by your healthcare team and physical therapist shortly after your knee replacement surgery. This typically begins within a few days post-surgery when your pain is well managed enough for you to participate in the prescribed exercises.",
+            "inference_time": 5.1207215785980225
+        },
+        {
+            "question": "How should I care for my surgical incision after gallbladder removal?",
+            "response": "To care for your surgical incisions after a gallbladder removal (cholecystectomy), follow these steps:\n1. Keep the incisions clean and dry by gently washing around them with soap and water while avoiding direct contact with the wound itself.\n2. Change any dressings as advised by your doctor or nurse according to their instructions.\n3. Watch out for signs of infection such as redness, warmth, pus discharge, increased pain, fever, or foul odor near the incisions; consult your healthcare provider if you notice anything unusual.\n4. Avoid activities that could strain or",
+            "inference_time": 12.682733058929443
+        },
+        {
+            "question": "What is normal pain level after shoulder surgery and how should I manage it?",
+            "response": "Answer: After undergoing shoulder replacement surgery, it's common to experience some degree of post-operative pain. The intensity of this pain varies from person to person, so there isn't a specific \"normal\" level. However, the pain should help guide you in managing it effectively. Initially, your healthcare team might prescribe strong medications such as opioids or nonsteroidal anti-inflammatory drugs (NSAIDs) to control severe discomfort. As time passes and healing progresses, over-the-counter pain relievers like acetaminophen or ibuprofen could",
+            "inference_time": 12.479576110839844
+        },
+        {
+            "question": "How long should I wait to drive after abdominal surgery?",
+            "response": "Around 1-4 weeks depending on whether it's a right or left side surgery; if it's the right side, allow up to a month, while for the left side, it could be within 1-2 weeks. However, factors such as medication use and progress during recovery may also influence when it would be safe for an individual to start driving again.",
+            "inference_time": 8.024871110916138
+        },
+        {
+            "question": "When can I return to work after bypass surgery?",
+            "response": "Answer: After undergoing either a Coronary Artery Bypass Graft (CABG) or a Roux-en-Y Gastric Bypass procedure, it's essential to allow your body adequate time to heal and recover. The timeline for returning to work will vary depending on the type of surgery you had as well as individual factors such as overall health, recovery process, and the nature of your job. \n\nFor CABG patients, most surgeons recommend taking at least four to six weeks off from work to ensure proper healing. During this period, you should avoid stren",
+            "inference_time": 12.406648874282837
+        },
+        {
+            "question": "What sleeping position is best after hip replacement?",
+            "response": "Answer: After undergoing a traditional hip replacement surgery, it's essential for patients to follow their healthcare provider's advice regarding postoperative positions and movements. While there isn't necessarily one \"best\" sleeping position, some are more recommended than others during recovery. Sleeping on your back with a pillow between your legs can help keep your new hip aligned while providing comfort. Avoid sleeping directly on your operated hip as this may cause discomfort or put unnecessary strain on the surgical site. Consult your medical team for personalized guidance specific to your case.",
+            "inference_time": 11.21287226676941
+        },
+        {
+            "question": "How soon can I shower after spinal surgery?",
+            "response": "Answer: The provided text does not specifically mention when one can take showers after spinal surgery. To accurately answer this question, it's important to consult specific postoperative care instructions from your healthcare provider or read up on general guidelines which usually involve waiting until the surgical incision is fully healed (around two weeks) and ensuring proper cleaning and dressing changes are done during that time.",
+            "inference_time": 8.388614654541016
+        },
+        {
+            "question": "What signs of infection should I watch for after surgery?",
+            "response": "Answer: After surgery, you should watch out for several signs of infection such as fever, drainage from your incisions, urinary frequency or discomfort, pain, or any other concerns that arise.",
+            "inference_time": 4.478916883468628
+        },
+        {
+            "question": "When can I resume sexual activity after heart surgery?",
+            "response": "Answer: The provided text does not specifically address resuming sexual activity after heart surgery; however, it mentions that after Radical Prostatectomy (a type of prostate cancer treatment), participating in a cardiac rehabilitation program might be advised and the specific timeline for resumption of sexual activity would likely be discussed with the patient by their medical team during the recovery process. It's important to consult with the treating physician regarding an individualized postoperative care plan following heart surgery.",
+            "inference_time": 10.499334812164307
+        },
+        {
+            "question": "What breathing exercises should I do after lung surgery?",
+            "response": "After lung surgery, you should practice deep-breathing exercises to help re-expand the lungs and prevent pneumonia. Additionally, you might use a spirometer for breathing exercises during the initial few days following the surgery. These exercises ensure proper expansion of all areas within your lungs and facilitate clearing of any accumulated secretions.",
+            "inference_time": 6.835035085678101
+        },
+        {
+            "question": "How should I manage constipation after surgery?",
+            "response": "Answer: To manage constipation after surgery due to remaining barium from an upper GI series, drink plenty of fluids, consume high-fiber foods, and possibly take a laxative as advised by your doctor.",
+            "inference_time": 5.090965509414673
+        },
+        {
+            "question": "What activities should I avoid after cataract surgery?",
+            "response": "After undergoing cataract surgery, there are several activities that you should avoid during the initial healing period to ensure proper recovery and prevent complications. These include:\n\n1. Rubbing your eyes - Avoid touching or rubbing the affected eye as it may dislodge the stitches or cause irritation.\n\n2. Strenuous physical activity - Refrain from vigorous exercise or heavy lifting until your doctor gives permission. This allows the incision site to heal properly without strain.\n\n3. Swimming and hot tub use - Do not swim or soak in hot tubs while still using antib",
+            "inference_time": 12.535080671310425
+        },
+        {
+            "question": "How do I prevent blood clots after surgery?",
+            "response": "To prevent blood clots after surgery, follow these steps:\n1. Discuss your medical history with your healthcare provider, especially if you have a history of bleeding disorders or are taking blood-thinning medications, aspirin, ibuprofen, or similar drugs affecting blood clotting; they might advise stopping certain medications prior to the surgery.\n2. Quit smoking if applicable, as this helps promote better post-surgery healing and general wellbeing. \n3. Follow your doctor's advice regarding medication - you might be prescribed anti-clotting agents either temporarily or long term depending upon the",
+            "inference_time": 12.558592557907104
+        },
+        {
+            "question": "When can I go up and down stairs after knee surgery?",
+            "response": "Answer: After undergoing knee surgery, it typically takes several weeks until you are allowed to start using stairs again. During this period, you'll likely rely on a knee brace, crutches, and follow specific movement guidelines provided by your healthcare team. Once you make progress in recovery and regain sufficient strength and flexibility with physical therapy, you should be able to resume stair climbing gradually. However, always consult with your doctor for personalized advice regarding when it is safe for you to begin this activity post-surgery.",
+            "inference_time": 10.756791830062866
+        },
+        {
+            "question": "What medications can I take for pain after surgery?",
+            "response": "After undergoing surgery, various types of pain relief medications may be prescribed or recommended by your healthcare provider to manage postoperative discomfort. Some common options include:\n\n1. Acetaminophen (Paracetamol): This over-the-counter medication helps relieve mild to moderate pain without causing significant stomach irritation like some other painkillers do. It works well when combined with other pain management strategies.\n\n2. Nonsteroidal Anti-inflammatory Drugs (NSAIDs): These medications help control both inflammation and pain. They work by reducing prostag",
+            "inference_time": 12.624464273452759
+        },
+        {
+            "question": "How long will swelling last after surgery?",
+            "response": "Answer: Swelling from surgery may persist for up to three months following treatment; however, it usually goes away on its own without being dangerous if the treated area isn't too large. Steroids might be prescribed by doctors to manage related symptoms like headaches.",
+            "inference_time": 5.768950939178467
+        },
+        {
+            "question": "When can I start weight training after hernia surgery?",
+            "response": "Answer: The text does not provide specific information about when one can begin weight training after hernia surgery. However, it mentions that gradual increases in physical activities should occur as tolerated and avoiding heavy lifting might be advised for several months post-surgery. Consultation with a medical professional would give more accurate guidance regarding starting weight training after hernia surgery.",
+            "inference_time": 7.688699245452881
+        },
+        {
+            "question": "What should I eat to promote healing after surgery?",
+            "response": "A diet that is low in fat and cholesterol including vegetables, fruits, low-fat or non-fat dairy products, and lean meats while gradually transitioning through a series of textures as recommended by the surgical team.",
+            "inference_time": 5.396705627441406
+        },
+        {
+            "question": "How do I prevent nausea after anesthesia?",
+            "response": "To prevent naseua after anesthesia, several measures can be taken based on research findings from various studies mentioned above. Some effective strategies include:\n\n1. Utilize multiple intervention approaches: According to study (184) by Apfel et al., they conducted a factorial trial using six different interventions to prevent post-operative nausea and vomiting. Combining these interventions might provide better results than relying solely on one method.\n\n2. Opt for Regional Anesthesia over General Anesthesia: In the study led by Liu et al. (18",
+            "inference_time": 12.706706047058105
+        },
+        {
+            "question": "When can I resume normal bathing after surgery?",
+            "response": "Answer: Normal bathing can generally be resumed once the skin around the surgical site has healed. This typically takes a few days. However, exact guidelines vary depending on the type of surgery performed and the advice given by your healthcare provider. It's essential to avoid submerging the incision site underwater during this time to minimize the chance of infection.",
+            "inference_time": 7.830368280410767
+        },
+        {
+            "question": "How do I manage diabetes after surgery?",
+            "response": "To effectively manage diabetes after surgery, follow these steps:\n\n1. Monitor your blood sugar levels closely: Keep track of your blood glucose readings regularly according to the instructions provided by your healthcare team. This will help you identify any patterns that may arise due to medications, dietary changes, stress, or physical activity post-surgery.\n\n2. Adjust insulin dosages if necessary: Your surgeon and endocrinologist might recommend adjustments to your insulin regimen depending upon the type and extent of the surgery performed. They'll take into account factors such as pain management, reduced mobility",
+            "inference_time": 12.664061546325684
+        },
+        {
+            "question": "What can I do about insomnia after surgery?",
+            "response": "Answer: After undergoing surgery, if you experience insomnia, consult with your doctor as they might recommend medications, relaxation techniques, or lifestyle changes to improve your sleep quality. It's important to follow their advice and allow sufficient time for recovery from the surgical process.",
+            "inference_time": 5.980963706970215
+        },
+        {
+            "question": "When should I call the doctor after surgery?",
+            "response": "Answer: You should call the doctor right away if you experience symptoms like fever, increased pain or warmth around the surgical site, leakage of fluids from the wound, coughing or difficulty breathing, vomiting and diarrhea, blood in your bowel movements, or if there are concerns regarding your recovery progress.",
+            "inference_time": 6.8815131187438965
+        },
+        {
+            "question": "How do I prevent pneumonia after surgery?",
+            "response": "To prevent pneumonia after surgery, follow these steps:\n1. Perform coughing and deep breathing exercises every 2 hours as instructed by your nurse to clear mucus from your lungs.\n2. Hug a pillow closely to your chest during coughing to minimize discomfort caused by chest soreness.\n3. Start eating and drinking gradually once allowed post-surgery.\n4. Wear compression stockings or use plastic devices to aid circulation and prevent blood pooling in your legs.\n5. Take medication prescribed to prevent blood clot formation.\n6. Learn and practice breathing exercises and cough",
+            "inference_time": 12.578060865402222
+        },
+        {
+            "question": "What should my activity level be first week after surgery?",
+            "response": "A: During the first week after surgery, it's important to follow your surgeon's instructions closely regarding mobility and activities. Start by sitting out of bed for short periods like 30 minutes on the first day and gradually increase up to 6 hours daily. Begin walking as advised by your medical team, usually starting from the second day post-surgery. Make sure to take things slow, recover at your own pace, and prioritize resting when needed. Remember that early mobilization helps in improving your recovery process but avoid pushing yourself too hard during this initial phase.",
+            "inference_time": 11.66724681854248
+        },
+        {
+            "question": "How do I care for surgical drains?",
+            "response": "Answer: To properly care for surgical drains after surgery, follow these steps:\n\n1. Keep the drain site dry: Cover the drain opening with an adhesive dressing or sterile gauze to protect it from moisture and infection. Change this dressing regularly according to your doctor's instructions.\n\n2. Monitor drain output: Check the amount of fluid being collected by the drain frequently. Record the volume and color of the fluid and report any changes to your healthcare provider.\n\n3. Maintain good hygiene: Wash your hands before handling the drain site and avoid touching the area unless",
+            "inference_time": 12.635210275650024
+        },
+        {
+            "question": "When can I wear regular clothes after surgery?",
+            "response": "Answer: Regular clothes can typically be worn soon after surgery; however, specific recommendations might vary depending on your individual case. It's essential to follow your healthcare provider's advice regarding dressing and bathing while the incision heals. A loose turban or hat could be worn immediately, but waiting around 3 to 4 weeks before wearing a wig is recommended to ensure complete healing of the incision.",
+            "inference_time": 8.612303018569946
+        },
+        {
+            "question": "How do I manage muscle spasms after back surgery?",
+            "response": "Answer: After undergoing back surgery, managing muscle spasms involves several steps. Firstly, work closely with your healthcare provider or physiotherapist to ensure proper restoration of neuromuscular functions by following recommended protocols during and after the operation. This will help prevent residual muscle paralysis, which could lead to various issues like respiratory problems and delayed recovery. \n\nIn addition to ensuring optimal medical care, you can take certain measures to alleviate muscle spasms at home. These include:\n\n1. Resting the affected area: Allow sufficient time for healing by avoiding",
+            "inference_time": 12.64465594291687
+        },
+        {
+            "question": "What vitamin supplements should I take after surgery?",
+            "response": "Answer: After surgery, especially following procedures like gastric bypass, you should consider taking several specific vitamin supplements to ensure adequate intake due to changes in absorption capacity. These include oral vitamin D supplements (possibly at a high dosage initially), iron supplements (in addition to those found in a multivitamin) to address potential anemia issues, and regular consumption of a daily multivitamin containing 200% of the daily values. Additionally, depending on individual needs, other essential vitamins and minerals like Vitamin B12 might also be advised by",
+            "inference_time": 12.671258211135864
+        }
+    ]
+}
