@@ -5,6 +5,7 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange)
 ![LangChain](https://img.shields.io/badge/LangChain-Agents-blueviolet)
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=munieshwar16&layout=compact)
 
 Welcome to my AI & ML project portfolio – a curated collection of practical, research-driven, and impactful systems showcasing my expertise in computer vision, NLP, recommendation systems, agent architectures, and cloud-scale AI integration.
 
