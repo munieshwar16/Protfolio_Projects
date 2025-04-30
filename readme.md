@@ -1,5 +1,10 @@
 
 # 🚀 Muni Eshwar Evakattu – AI/ML Portfolio
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Spark](https://img.shields.io/badge/Spark-DataProcessing-orange)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange)
+![LangChain](https://img.shields.io/badge/LangChain-Agents-blueviolet)
+
 
 Welcome to my AI & ML project portfolio – a curated collection of practical, research-driven, and impactful systems showcasing my expertise in computer vision, NLP, recommendation systems, agent architectures, and cloud-scale AI integration.
 
