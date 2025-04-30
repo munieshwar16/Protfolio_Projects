@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="banner.png" alt="Project Banner" width="100%" />
+</p>
 # 🚀 Muni Eshwar Evakattu – AI/ML Portfolio
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![Spark](https://img.shields.io/badge/Spark-DataProcessing-orange)
