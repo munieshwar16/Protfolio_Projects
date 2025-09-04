@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+mini_jira.db
+*.sqlite
+*.sqlite3
+
+# Hugging Face / Transformers caches
+~/.cache/huggingface/
+~/.cache/torch/
+.cache/
